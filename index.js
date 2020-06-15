@@ -1,4 +1,4 @@
-module.exports = function prettyBytes (bytes) {
+module.exports = function niceBytes (bytes) {
   bytes = Number(bytes)
 
   const divider = 1000
