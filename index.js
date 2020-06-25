@@ -1,4 +1,6 @@
-module.exports = function niceBytes (bytes) {
+module.exports = niceBytes
+
+function niceBytes (bytes) {
   bytes = Number(bytes)
 
   const divider = 1000
@@ -13,6 +15,7 @@ module.exports = function niceBytes (bytes) {
     suffix: suffix,
     magnitude: magnitude,
     result: result,
-    fixed: fixed
+    fixed: fixed,
+    text: fixed + suffix
   }
 }

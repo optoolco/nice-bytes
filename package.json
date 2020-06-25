@@ -1,19 +1,31 @@
 {
   "name": "nice-bytes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pretty format a number as bytes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npr standard && node test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/optoolco/nice-bytes.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Raynos <raynos2@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/optoolco/nice-bytes/issues"
   },
-  "homepage": "https://github.com/optoolco/nice-bytes#readme"
+  "homepage": "https://github.com/optoolco/nice-bytes#readme",
+  "contributors": [
+    {
+      "name": "Raynos"
+    },
+    {
+      "name": "heapwolf"
+    }
+  ],
+  "devDependencies": {
+    "@pre-bundled/tape": "3.6.1",
+    "npm-bin-deps": "1.10.0"
+  }
 }
